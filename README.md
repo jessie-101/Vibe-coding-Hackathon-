@@ -221,6 +221,18 @@ requests==2.31.0
 gunicorn==21.2.0
 
 
+render.yaml
+
+services:
+  - type: web
+    name: studybuddy-app
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
+    plan: free
+    autoDeploy: true
+
+
 
 
 
