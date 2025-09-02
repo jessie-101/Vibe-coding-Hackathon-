@@ -213,6 +213,15 @@ if __name__ == '__main__':
 
 
 
+   requirements.txt
+   
+   Flask==2.3.2
+Flask-SQLAlchemy==3.0.5
+requests==2.31.0
+gunicorn==21.2.0
+
+
+
 
 
 
